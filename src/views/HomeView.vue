@@ -13,17 +13,19 @@
 
 </Suspense>
 
-<main>
-  <section>
-    <h1>main</h1>
-  </section>
-</main>
+
 </template>
 
 <script setup>
 // import components
 import Header from '@/components/Header.vue';
 import Loader from '@/components/Loader.vue';
+</script>
+
+<script>
+export default{
+
+}
 </script>
 
 <style scoped>
@@ -38,6 +40,7 @@ import Loader from '@/components/Loader.vue';
 
 main{
   z-index: 2;
-  background-color: aliceblue;
+  background-color: white;
 }
+
 </style>

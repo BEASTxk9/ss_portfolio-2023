@@ -24,7 +24,7 @@ await getData();
 
 <style scoped>
 #landingpage_bg{
-    background-image: url('https://i.postimg.cc/FH9PtV9F/686924.jpg');
+    background-image: url('https://i.postimg.cc/prK51QGk/pexels-pixabay-355770.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;

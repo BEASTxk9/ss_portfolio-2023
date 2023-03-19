@@ -2,7 +2,7 @@
   <Suspense @pending="pending" @fallback="fallback" @resolve="resolved">
 
 <template #default>
-  <Header></Header>  
+  <Header></Header>
 </template>
 
 <template #fallback>
@@ -13,7 +13,11 @@
 
 </Suspense>
 
-
+<main>
+  <section>
+    <h1>main</h1>
+  </section>
+</main>
 </template>
 
 <script setup>
